@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ConfiguratorJS</title>
+
+    <script type="text/javascript" src="js/libs-dev/mootools-1.2.4-core-nc.js"></script>
+    <script type="text/javascript" src="js/libs-dev/mootools-1.2.4.4-more-nc.js"></script>
+    <script type="text/javascript" src="js/libs-dev/PureMVC_JS_2_0.js"></script>
+
+    <script type="text/javascript" src="js/configurator/view/components/core/UIComponent.js"></script>
+
+    <script type="text/javascript" src="js/configurator/Application.js"></script>
+    <script type="text/javascript" src="js/configurator/ApplicationFacade.js"></script>
+
+    <!--Model-->
+    <script type="text/javascript" src="js/configurator/model/CarBodyProxy.js"></script>
+
+    <!--View-->
+    <script type="text/javascript" src="js/configurator/view/MainPanel.js"></script>
+    <script type="text/javascript" src="js/configurator/view/NavigationPanel.js"></script>
+
+    <!--Controller-->
+    <script type="text/javascript" src="js/configurator/controller/StartupCommand.js"></script>
+    <script type="text/javascript" src="js/configurator/controller/ModelPrepCommand.js"></script>
+    <script type="text/javascript" src="js/configurator/controller/LoadCarFirstRunCommand.js"></script>
+
+
+    <script type="text/javascript">
+        function init() {
+            var app = new Application();
+            app.initializeChildren();
+            app.childrenInitialized();
+            app.initializationComplete();
+        }
+
+        window.addEvent
+                (
+                        'domready',
+                        init
+                );
+    </script>
+
+</head>
+<body>
+
+<div id="configurator-div">
+    <div id="main-panel"></div>
+    <div id="navigation-panel">
+        <div id="left-rotate-button"></div>
+        <div id="right-rotate-button"></div>
+    </div>
+</div>
+
+</body>
+</html>
