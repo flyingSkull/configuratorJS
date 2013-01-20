@@ -22,6 +22,13 @@
 
 //source: http://snipplr.com/view.php?codeview&id=561
 // Cross-browser implementation of element.addEventListener()
+
+var ImageLoader = function (url) {
+    this.url = url;
+    this.image = null;
+    this.loadEvent = null;
+};
+
 function addListener(element, type, expression, bubbling) {
 
     bubbling = bubbling || false;
@@ -35,16 +42,13 @@ function addListener(element, type, expression, bubbling) {
     } else return false;
 }
 
-var ImageLoader = function (url) {
-    this.url = url;
-    this.image = null;
-    this.loadEvent = null;
-};
 
 ImageLoader.prototype = {
 
     load:function () {
-        this.image = document.createElement('img');
+//        this.image = document.createElement('img');
+        this.image = new Image();
+
         var url = this.url;
         var image = this.image;
         var loadEvent = this.loadEvent;

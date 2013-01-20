@@ -26,7 +26,8 @@ var CarBodyProxy = function () {
         //set event handler
         loader.loadEvent = function (url, image) {
             //action to perform when the image is loaded
-            document.body.appendChild(image);
+            console.log("image-url: "+url);
+//            document.body.appendChild(image);
         }
         loader.load();
     }
