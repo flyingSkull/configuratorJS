@@ -23,10 +23,40 @@
 //source: http://snipplr.com/view.php?codeview&id=561
 // Cross-browser implementation of element.addEventListener()
 
-var ImageLoader = function (url) {
+var ImageLoader = function (images) {
+    this.images = images;
+
+    for (var Image in images) {
+        console.log(Image);
+    }
+
     this.url = url;
     this.image = null;
     this.loadEvent = null;
+};
+
+ImageLoader.prototype = {
+
+    load:function () {
+//        this.image = document.createElement('img');
+        this.image = new Image();
+
+        var url = this.url;
+        var image = this.image;
+        var loadEvent = this.loadEvent;
+
+        addListener(this.image, 'load', function (e) {
+            if (loadEvent != null) {
+                loadEvent(url, image);
+            }
+        }, false);
+
+        this.image.src = this.url;
+    },
+
+    getImage:function () {
+        return this.image;
+    }
 };
 
 function addListener(element, type, expression, bubbling) {
@@ -41,26 +71,3 @@ function addListener(element, type, expression, bubbling) {
         return true;
     } else return false;
 }
-
-
-ImageLoader.prototype = {
-
-    load:function () {
-//        this.image = document.createElement('img');
-        this.image = new Image();
-
-        var url = this.url;
-        var image = this.image;
-        var loadEvent = this.loadEvent;
-        addListener(this.image, 'load', function (e) {
-            if (loadEvent != null) {
-                loadEvent(url, image);
-            }
-        }, false);
-        this.image.src = this.url;
-    },
-
-    getImage:function () {
-        return this.image;
-    }
-};

@@ -22,7 +22,11 @@ var CarBodyProxy = function () {
 
         this.parent(CarBodyProxy.NAME, new Array());
 
-        var loader = new ImageLoader('http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg');
+
+        var loader = new ImageLoader();
+
+
+//        var loader = new ImageLoader('http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg');
         //set event handler
         loader.loadEvent = function (url, image) {
             //action to perform when the image is loaded
