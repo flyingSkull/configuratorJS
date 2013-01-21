@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var PrepViewCommand = function () {
+var ViewPrepCommand = function () {
     /**
      * Required by MooTools for inheritance.
      * @type Class
@@ -17,7 +17,8 @@ var PrepViewCommand = function () {
         var app/*Application*/ = note.getBody();
 
         this.facade.registerMediator(new MainPanelMediator(app.mainPanel));
-        this.facade.registerMediator(new NavigationPanelMediator(app.navigationPanel));
+//        this.facade.registerMediator(new NavigationPanelMediator(app.navigationPanel));
     }
 }
-PrepViewCommand = new Class(new PrepViewCommand());
+
+ViewPrepCommand = new Class(new ViewPrepCommand());

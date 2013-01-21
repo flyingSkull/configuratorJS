@@ -12,7 +12,7 @@ var StartupCommand = function () {
     this.initializeMacroCommand = function (note/*INotification*/) {
 //        this.addSubCommand( LoadConfigCommand);
         this.addSubCommand(ModelPrepCommand);
-//        this.addSubCommand( ViewPrepCommand );
+        this.addSubCommand(ViewPrepCommand);
     }
 }
 StartupCommand = new Class(new StartupCommand());

@@ -26,6 +26,8 @@ ApplicationFacade.STARTUP/*String*/ = "startup";
 ApplicationFacade.LOAD_CAR_FIRST_RUN/*String*/ = "loadCarFirstRun";
 ApplicationFacade.LOAD_CAR_FINAL_RUN/*String*/ = "loadCarFinalRun";
 
+ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN/*String*/ = "completeLoadCarFirstRun";
+
 
 ApplicationFacade.getInstance = function ()/*ApplicationFacade*/ {
     if (Facade.instance == undefined) {

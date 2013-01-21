@@ -42,7 +42,6 @@ function imageLoaded()
     if (imagesLoaded == imageUrls.length){
         if(callback != null){
             callback(images);
-            alert("The images have been preloaded.");
         }
     }
 }

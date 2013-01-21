@@ -20,9 +20,9 @@ var CarBodyProxy = function () {
     this.initialize = function () {
         console.log("CarBodyProxy::initialize");
 
-        this.parent(CarBodyProxy.NAME, new Array());
+        this.parent(CarBodyProxy.NAME, []);
 
-        var imageUrls = new Array();
+        var imageUrls = [];
         imageUrls[0] = "http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg";
         imageUrls[1] = "http://www.html5canvastutorials.com/demos/assets/yoda.jpg";
 
@@ -30,17 +30,21 @@ var CarBodyProxy = function () {
         bulkLoader.initialize(imageUrls, result);
 
         bulkLoader.loadImages();
+    };
 
-    }
+    this.getCarBodyProxy = function () {
+        return this;
+    };
+
 };
 
 function result(images) {
-    for (var i = 0; i < images.length; i++) {
-        console.log("images: " + images[i]);
+        console.log("result: "+images);
+    if (images != null) {
+        CarBodyProxy.getCarBodyProxy.sendNotification(ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN, images);
+
     }
 }
 
-
 CarBodyProxy = new Class(new CarBodyProxy());
-
 CarBodyProxy.NAME/*String*/ = "CarBodyProxy";
