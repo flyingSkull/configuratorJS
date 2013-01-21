@@ -22,21 +22,25 @@ var CarBodyProxy = function () {
 
         this.parent(CarBodyProxy.NAME, new Array());
 
+        var imageUrls = new Array();
+        imageUrls[0] = "http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg";
+        imageUrls[1] = "http://www.html5canvastutorials.com/demos/assets/yoda.jpg";
 
-        var loader = new ImageLoader();
+        var bulkLoader = new BulkImageLoader();
+        bulkLoader.initialize(imageUrls, result);
 
+        bulkLoader.loadImages();
 
-//        var loader = new ImageLoader('http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg');
-        //set event handler
-        loader.loadEvent = function (url, image) {
-            //action to perform when the image is loaded
-            console.log("image-url: "+url);
-//            document.body.appendChild(image);
-        }
-        loader.load();
     }
+};
 
+function result(images) {
+    for (var i = 0; i < images.length; i++) {
+        console.log("images: " + images[i]);
+    }
 }
+
+
 CarBodyProxy = new Class(new CarBodyProxy());
 
 CarBodyProxy.NAME/*String*/ = "CarBodyProxy";
