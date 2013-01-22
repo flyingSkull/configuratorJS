@@ -10,7 +10,7 @@ var StartupCommand = function () {
     this.Extends = MacroCommand;
 
     this.initializeMacroCommand = function (note/*INotification*/) {
-//        this.addSubCommand( LoadConfigCommand);
+        this.addSubCommand(LoadConfigCommand);
         this.addSubCommand(ModelPrepCommand);
         this.addSubCommand(ViewPrepCommand);
     }

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+		<!-- bodyLight-Image Einstellungen -->
+		<reflection_alpha type="Number">0.63</reflection_alpha>
+		<reflection_blendMode type="String">screen</reflection_blendMode>
+		
+		<!-- bodyColor-Image Einstellungen-->
+		<diffusion_alpha type="Number">0.58</diffusion_alpha>
+		<diffusion_blendMode type="String">normal</diffusion_blendMode>
+		
+		<!-- zusätzliche Optionen einblenden-->
+		<show_admin_panel type="Boolean">true</show_admin_panel>
+		
+		<!-- navigationsbuttons anzeigen -->
+		<show_turn_right_button type="Boolean">true</show_turn_right_button>
+		<show_turn_left_button type="Boolean">true</show_turn_left_button>
+		
+		<show_fullscreen_button type="Boolean">false</show_fullscreen_button>
+		<show_facebook_button type="Boolean">false</show_facebook_button>
+		
+		<!-- Animation nach dem Laden des Fahrzeugs -->
+		<animateOnFirstRun type="Boolean">false</animateOnFirstRun>
+		
+		<!-- Intensität des Blur der Switch-Animation -->
+		<blurXFrom type="Number">150</blurXFrom>
+		
+		<!-- Dauer des Blur der Switch-Animation -->
+		<blurDuration type="Number">150</blurDuration>
+
+		<!-- ImageHost -->
+		<imageHost type="String">http://www.doppellotte.de/ric/</imageHost>
+		
+		<!-- Ladereihenfolge der Bilder -->	
+		<!-- 1. Durchlauf -->
+		<loadingOrderFirstStep type="Array">
+			<item type="Number">1</item>
+			<item type="Number">2</item>
+			<item type="Number">8</item>
+		</loadingOrderFirstStep>
+
+		<!-- 2. Durchlauf -->
+		<loadingOrderFinalStep type="Array">
+			<item type="Number">3</item>
+			<item type="Number">4</item>
+			<item type="Number">5</item>
+			<item type="Number">6</item>
+			<item type="Number">7</item>
+		</loadingOrderFinalStep>
+		
+		<imagePropertiesArray type="Array">
+			<item type="Object">
+				<id type="Number">1</id>
+				<frame type="String">0000</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">2</id>
+				<frame type="String">0018</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">3</id>
+				<frame type="String">0040</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">4</id>
+				<frame type="String">0060</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">5</id>
+				<frame type="String">0080</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">6</id>
+				<frame type="String">0098</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">7</id>
+				<frame type="String">0120</frame>
+			</item>
+			<item type="Object">
+				<id type="Number">8</id>
+				<frame type="String">0140</frame>
+			</item>
+		</imagePropertiesArray>
+		
+</config>

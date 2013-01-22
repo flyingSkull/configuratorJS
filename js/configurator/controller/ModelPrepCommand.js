@@ -11,6 +11,7 @@ var ModelPrepCommand = function () {
 
     this.execute = function (notification/*INotification*/) {
         console.log("ModelPrepCommand::execute");
+
         this.facade.registerProxy(new CarBodyProxy());
     }
 }

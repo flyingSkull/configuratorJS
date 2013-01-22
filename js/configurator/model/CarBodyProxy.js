@@ -27,20 +27,16 @@ var CarBodyProxy = function () {
         imageUrls[1] = "http://www.html5canvastutorials.com/demos/assets/yoda.jpg";
 
         var bulkLoader = new BulkImageLoader();
-        bulkLoader.initialize(imageUrls, function (images, obj) {
-            if (images != null && obj != null) {
-                obj.sendNotification(ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN, images);
-            }
-        }, this);
+        bulkLoader.initialize(imageUrls, result, this);
 
         bulkLoader.loadImages();
     };
 
-
-    this.getCarBodyProxy = function () {
-        return this;
-    };
-
+    function result (images, obj) {
+        if (images != null && obj != null) {
+            obj.sendNotification(ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN, images);
+        }
+    }
 };
 
 CarBodyProxy = new Class(new CarBodyProxy());

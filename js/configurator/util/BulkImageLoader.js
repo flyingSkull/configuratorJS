@@ -6,44 +6,42 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var imagesLoaded = new Number(0);
-var images = new Array();
-var parentObj = null;
-var imageUrls = null;
-var callback = null;
+function BulkImageLoader() {
 
-
-var BulkImageLoader = function () {
+    var imagesLoaded = Number(0);
+    var images = [];
+    var parentObj = null;
+    var imageUrls = null;
+    var callback = null;
 
     this.initialize = function (givenImageUrls, givenCallback, obj) {
         imageUrls = givenImageUrls;
         callback = givenCallback;
         parentObj = obj;
-    }
+    };
 
-    this.loadImages = function(){
-        for(var i=0; i<imageUrls.length; i++){
+    this.loadImages = function () {
+        for (var i = 0; i < imageUrls.length; i++) {
             images.push(loadImage(imageUrls[i]));
         }
+    };
+
+    /* private */
+    function loadImage(url) {
+        var image = new Image();
+        image.addEventListener("load", imageLoaded, false);
+        image.src = url;
+        return image;
     }
-}
 
-function loadImage(url)
-{
-    var image = new Image();
-    image.addEventListener("load", imageLoaded, false);
-    image.src = url;
-    return image;
-}
+    function imageLoaded() {
+        imagesLoaded++;
 
-function imageLoaded()
-{
-    imagesLoaded++;
-    console.log(imagesLoaded);
-
-    if (imagesLoaded == imageUrls.length){
-        if(callback != null){
-            callback(images, parentObj);
+        if (imagesLoaded == imageUrls.length) {
+            if (callback != null) {
+                callback(images, parentObj);
+            }
         }
     }
 }
+

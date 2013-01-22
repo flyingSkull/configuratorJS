@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5206930e-226f-4aad-a0cf-e9fdfab5b49b" name="Default" comment="">
+    <list default="true" id="5206930e-226f-4aad-a0cf-e9fdfab5b49b" name="Default" comment="sendNotification funzt">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/xml/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/configurator/controller/LoadConfigCommand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/configurator/model/ConfigProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/configurator/util/XMLLoader.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/configurator/util/ImageLoader.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" afterPath="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js" afterPath="$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/controller/StartupCommand.js" afterPath="$PROJECT_DIR$/js/configurator/controller/StartupCommand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" afterPath="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" afterPath="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
     </list>
     <ignored path="configuratorJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,37 +33,66 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ViewPrepCommand.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/controller/ViewPrepCommand.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="49" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigProxy.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/model/ConfigProxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="25" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#154#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CarBodyProxy.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+            <state line="38" column="5" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartupCommand.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="323" selection-end="323" vertical-scroll-proportion="0.30927834">
+            <state line="19" column="10" selection-start="821" selection-end="821" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelPrepCommand.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
+      <file leaf-file-name="XMLLoader.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/configurator/util/XMLLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+            <state line="82" column="30" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.6666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPanelMediator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
+      <file leaf-file-name="CarBodyVO.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/CarBodyVO.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+            <state line="58" column="38" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigVO.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="1" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#154#0" expanded="false" />
               </folding>
@@ -64,10 +103,19 @@
       <file leaf-file-name="BulkImageLoader.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="38" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+            <state line="18" column="33" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#154#0" expanded="false" />
+                <element signature="n#!!doc;n#BulkImageLoader#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/xml/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="63" selection-start="1171" selection-end="1201" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,30 +136,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/configurator/view/MainPanel.js" />
-        <option value="$PROJECT_DIR$/js/configurator/view/NavigationPanel.js" />
-        <option value="$PROJECT_DIR$/js/configurator/Application.js" />
-        <option value="$PROJECT_DIR$/js/configurator/controller/LoadCarFirstRunCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/CarColorProxy.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/vo/CarBodyVO.js" />
         <option value="$PROJECT_DIR$/js/configurator/ApplicationFacade.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/configurator/controller/ViewPrepCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/controller/StartupCommand.js" />
         <option value="$PROJECT_DIR$/js/configurator/util/ImageLoader.js" />
+        <option value="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
+        <option value="$PROJECT_DIR$/js/configurator/controller/StartupCommand.js" />
+        <option value="$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js" />
+        <option value="$PROJECT_DIR$/js/configurator/controller/LoadConfigCommand.js" />
         <option value="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" />
-        <option value="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
+        <option value="$PROJECT_DIR$/assets/xml/config.xml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/configurator/model/ConfigProxy.js" />
+        <option value="$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js" />
+        <option value="$PROJECT_DIR$/js/configurator/util/XMLLoader.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
     <option name="y" value="22" />
-    <option name="width" value="1641" />
-    <option name="height" value="1028" />
+    <option name="width" value="1280" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -120,7 +167,18 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSUnusedAssignment</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -150,7 +208,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,38 +320,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configurator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configurator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/pureMVCEmployee" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xml" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js/configurator/controller" />
       <recent name="$PROJECT_DIR$/libs-dev" />
       <recent name="$PROJECT_DIR$/js/configurator/view/core/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/js/configurator" />
       <recent name="$PROJECT_DIR$/js/configurator/view/components/core" />
       <recent name="$PROJECT_DIR$/js/configurator/view/components" />
       <recent name="$PROJECT_DIR$/js/configurator/view" />
-      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -309,7 +434,7 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
@@ -402,16 +527,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="22" width="1641" height="1028" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="998" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24103832" sideWeight="0.70341784" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24103832" sideWeight="0.6714443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24025458" sideWeight="0.21892816" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24025458" sideWeight="0.44469783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24103832" sideWeight="0.36824697" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24025458" sideWeight="0.21892816" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -419,6 +543,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -498,40 +623,16 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/LoadCarFirstRunCommand.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="351" selection-end="351" vertical-scroll-proportion="0.2278481" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/view/NavigationPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="359" selection-end="359" vertical-scroll-proportion="0.34798536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+        <state line="13" column="35" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarColorProxy.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/CarBodyVO.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="44" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+        <state line="7" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19444445">
           <folding />
         </state>
       </provider>
@@ -543,16 +644,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarColorProxy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="85" selection-start="1400" selection-end="1400" vertical-scroll-proportion="-16.25">
+        <state line="21" column="29" selection-start="429" selection-end="429" vertical-scroll-proportion="0.5833333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs-dev/PureMVC_JS_2_0.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="986" column="4" selection-start="32819" selection-end="32819" vertical-scroll-proportion="0.27857143">
+        <state line="32" column="5" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/controller/LoadConfigCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="337" selection-end="337" vertical-scroll-proportion="0.3469751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc;n#BulkImageLoader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs-dev/mootools-1.2.4-core-nc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1222" column="9" selection-start="30312" selection-end="30312" vertical-scroll-proportion="0.33206832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="821" selection-end="821" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -564,50 +702,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/ConfigProxy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+        <state line="25" column="25" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#154#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/util/ImageLoader.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/CarBodyVO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#154#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#154#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+        <state line="58" column="38" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+        <state line="98" column="1" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#154#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/xml/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="63" selection-start="1171" selection-end="1201" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/util/XMLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="323" selection-end="323" vertical-scroll-proportion="0.30927834">
+        <state line="82" column="30" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.6666667">
           <folding />
         </state>
       </provider>
