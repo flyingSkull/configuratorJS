@@ -8,15 +8,17 @@
 
 var imagesLoaded = new Number(0);
 var images = new Array();
+var parentObj = null;
 var imageUrls = null;
 var callback = null;
 
 
 var BulkImageLoader = function () {
 
-    this.initialize = function (givenImageUrls, givenCallback) {
+    this.initialize = function (givenImageUrls, givenCallback, obj) {
         imageUrls = givenImageUrls;
         callback = givenCallback;
+        parentObj = obj;
     }
 
     this.loadImages = function(){
@@ -41,7 +43,7 @@ function imageLoaded()
 
     if (imagesLoaded == imageUrls.length){
         if(callback != null){
-            callback(images);
+            callback(images, parentObj);
         }
     }
 }
