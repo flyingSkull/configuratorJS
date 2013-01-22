@@ -30,7 +30,7 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
         switch( note.getName() )
         {
             case ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN:
-                console.log("handleNotification");
+                console.log("handleNotification: "+ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN);
                 break;
         }
     }

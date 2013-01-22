@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5206930e-226f-4aad-a0cf-e9fdfab5b49b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" afterPath="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" afterPath="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" afterPath="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
     </list>
     <ignored path="configuratorJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,28 +23,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="85" selection-start="1400" selection-end="1400" vertical-scroll-proportion="-16.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarBodyProxy.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CarBodyProxy.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="65" selection-start="763" selection-end="763" vertical-scroll-proportion="0.38392857">
+            <state line="28" column="5" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageLoader.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/util/ImageLoader.js">
+      <file leaf-file-name="StartupCommand.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="5" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+            <state line="12" column="29" selection-start="323" selection-end="323" vertical-scroll-proportion="0.30927834">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelPrepCommand.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPanelMediator.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="5" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#154#0" expanded="false" />
               </folding>
@@ -60,62 +68,6 @@
               <folding>
                 <element signature="e#0#154#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewPrepCommand.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/controller/ViewPrepCommand.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPanelMediator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="32" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#154#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationFacade.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/ApplicationFacade.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="68" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartupCommand.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelPrepCommand.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/Application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="44" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,10 +100,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/configurator/controller/ViewPrepCommand.js" />
         <option value="$PROJECT_DIR$/js/configurator/controller/StartupCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
         <option value="$PROJECT_DIR$/js/configurator/util/ImageLoader.js" />
         <option value="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" />
+        <option value="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
       </list>
     </option>
   </component>
@@ -422,7 +374,11 @@
       <created>1358811188114</created>
       <updated>1358811188114</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sendNotification funzt">
+      <created>1358847350326</created>
+      <updated>1358847350326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -504,7 +460,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bulkloader callback" />
+    <option name="LAST_COMMIT_MESSAGE" value="sendNotification funzt" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -522,6 +478,7 @@
     <MESSAGE value="preferences" />
     <MESSAGE value="Bulkloader added" />
     <MESSAGE value="Bulkloader callback" />
+    <MESSAGE value="sendNotification funzt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,23 +550,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/libs-dev/PureMVC_JS_2_0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="986" column="4" selection-start="32819" selection-end="32819" vertical-scroll-proportion="0.27857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -621,9 +564,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
+        <state line="45" column="38" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#154#0" expanded="false" />
           </folding>
@@ -639,9 +582,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+        <state line="32" column="5" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#154#0" expanded="false" />
           </folding>
@@ -650,7 +593,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="65" selection-start="763" selection-end="763" vertical-scroll-proportion="0.38392857">
+        <state line="28" column="5" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/controller/ModelPrepCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/controller/StartupCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="323" selection-end="323" vertical-scroll-proportion="0.30927834">
           <folding />
         </state>
       </provider>
