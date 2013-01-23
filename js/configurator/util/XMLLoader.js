@@ -17,6 +17,7 @@ function XMLLoader() {
     var callback = null;
     var configVO = new ConfigVO();
     var configObject = new ConfigObject();
+    var parentObj = null;
 
 //    var configObj = {
 //        reflection_alpha:0.631,
@@ -37,9 +38,10 @@ function XMLLoader() {
 //        imagePropertiesArray:[]
 //    };
 
-    this.initialize = function (path, result) {
+    this.initialize = function (path, result, obj) {
         xmlPath = path;
         callback = result;
+        parentObj = obj;
     };
 
     this.load = function () {
@@ -99,6 +101,6 @@ function XMLLoader() {
         firstImageArray = xmlDoc.getElementsByTagName("loadingOrderFirstStep")[0].getChildren();
         secondImageArray = xmlDoc.getElementsByTagName("loadingOrderFinalStep")[0].getChildren();
 
-        callback(configObject);
+        callback(configObject, parentObj);
     };
 }
