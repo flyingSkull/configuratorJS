@@ -19,17 +19,27 @@ var ConfigProxy = function () {
     this.initialize = function () {
         console.log("ConfigProxy::initialize");
 
+//        const path = "http://localhost/config.xml";
+        const path = "assets/xml/config.xml";
+
         this.parent(ConfigProxy.NAME, []);
 
         var xmlLoader = new XMLLoader();
-        xmlLoader.initialize("assets/xml/config.xml", result);
+        xmlLoader.initialize(path, result);
         xmlLoader.load();
     };
 
-    function result(firstImageArray, secondImageArray){
-        console.log("ConfigProxy::result");
-        console.log("ConfigProxy::result::"+firstImageArray.length);
-        console.log("ConfigProxy::result::"+secondImageArray.length);
+    function result(configObject) {
+        if (configObject instanceof ConfigObject) {
+            console.log("ConfigProxy::result:" +  configObject.blurXFrom);
+            console.log("ConfigProxy::result:" +  configObject.imageHost);
+
+            this.getConfigObject.push( configObject );
+        }
+    }
+
+    this.getConfigObject = function(){
+        return this.data;
     }
 };
 

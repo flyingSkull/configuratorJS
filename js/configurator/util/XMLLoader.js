@@ -15,26 +15,27 @@ function XMLLoader() {
     var secondImageArray = null;
     var configArray = null;
     var callback = null;
+    var configVO = new ConfigVO();
+    var configObject = new ConfigObject();
 
-    var configObj = {
-        reflection_alpha:0.631,
-        reflection_blendMode:"screen",
-        diffusion_alpha:0.58,
-        diffusion_blendMode:"normal",
-        show_admin_panel:true,
-        show_turn_right_button:true,
-        show_turn_left_button:true,
-        show_fullscreen_button:false,
-        show_facebook_button:false,
-        animateOnFirstRun:false,
-        blurXFrom:150,
-        blurDuration:150,
-        imageHost:"http://www.doppellotte.de/ric/",
-        loadingOrderFirstStep:[],
-        loadingOrderFinalStep:[],
-        imagePropertiesArray:[]
-    };
-
+//    var configObj = {
+//        reflection_alpha:0.631,
+//        reflection_blendMode:"screen",
+//        diffusion_alpha:0.58,
+//        diffusion_blendMode:"normal",
+//        show_admin_panel:true,
+//        show_turn_right_button:true,
+//        show_turn_left_button:true,
+//        show_fullscreen_button:false,
+//        show_facebook_button:false,
+//        animateOnFirstRun:false,
+//        blurXFrom:150,
+//        blurDuration:150,
+//        imageHost:"http://www.doppellotte.de/ric/",
+//        loadingOrderFirstStep:[],
+//        loadingOrderFinalStep:[],
+//        imagePropertiesArray:[]
+//    };
 
     this.initialize = function (path, result) {
         xmlPath = path;
@@ -43,14 +44,20 @@ function XMLLoader() {
 
     this.load = function () {
 
-        if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlHttp = new XMLHttpRequest();
+        try {
+            if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlHttp = new XMLHttpRequest();
+            }
+            else {// code for IE6, IE5
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlHttp.open("GET", xmlPath, false);
+            xmlHttp.send();
+        } catch (e) {
+            window.alert("Unable to load XML-File");
+            return;
         }
-        else {// code for IE6, IE5
-            xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlHttp.open("GET", xmlPath, false);
-        xmlHttp.send();
+
         xmlDoc = xmlHttp.responseXML;
 
 //        console.log("1: " + xmlDoc.getElementsByTagName("loadingOrderFirstStep")[0].tagName); //loadingOrderFirstStep
@@ -65,36 +72,33 @@ function XMLLoader() {
 //            console.log(configArray[i].tagName);
 //            console.log(configArray[i].textContent);
 
-            if (configObj.hasOwnProperty(configArray[i].tagName)) {
+            console.log(configObject.hasOwnProperty(configArray[i].tagName));
+
+            if (configObject.hasOwnProperty(configArray[i].tagName)) {
 
                 switch (configArray[i].attributes[0].nodeValue) {
                     case "Number":
-                        configObj[configArray[i].tagName] = configArray[i].textContent;
+                        configObject[configArray[i].tagName] = configArray[i].textContent;
                         break;
 
                     case "String":
-                        configObj[configArray[i].tagName] = configArray[i].textContent;
-
+                        configObject[configArray[i].tagName] = configArray[i].textContent;
                         break;
 
                     case "Array":
-                        configObj[configArray[i].tagName] = configArray[i].textContent;
-
+                        configObject[configArray[i].tagName] = configArray[i].textContent;
                         break;
 
                     case "Boolean":
-                        configObj[configArray[i].tagName] = configArray[i].textContent;
-
+                        configObject[configArray[i].tagName] = configArray[i].textContent;
                         break;
                 }
-
             }
-
         }
 
         firstImageArray = xmlDoc.getElementsByTagName("loadingOrderFirstStep")[0].getChildren();
         secondImageArray = xmlDoc.getElementsByTagName("loadingOrderFinalStep")[0].getChildren();
 
-        callback(firstImageArray, secondImageArray);
+        callback(configObject);
     };
 }

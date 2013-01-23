@@ -96,5 +96,9 @@ var ConfigVO = function
     this.loadingOrderFirstStep,
     this.loadingOrderFinalStep,
     this.imagePropertiesArray
+
+    this.hasValue = function(value/*String*/){
+
+    }
 }
 ConfigVO = new Class(new ConfigVO());
