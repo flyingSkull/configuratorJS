@@ -9,11 +9,10 @@ var LoadConfigCommand = function () {
 
     this.Extends = SimpleCommand;
 
-    this.execute = function (notification/*INotification*/) {
-
-        var app/*Application*/ = notification.getBody();
-
+    this.execute = function (notification/*INotification*/)
+    {
         console.log("LoadConfigCommand::execute");
+
         this.facade.registerProxy(new ConfigProxy());
     };
 };

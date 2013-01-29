@@ -10,9 +10,13 @@ var StartupCommand = function () {
     this.Extends = MacroCommand;
 
     this.initializeMacroCommand = function (note/*INotification*/) {
+
+        console.log("StartupCommand::initializeMacroCommand");
+        this.addSubCommand(PrepareModelCommand);
+        this.addSubCommand(PrepareViewCommand);
+
         this.addSubCommand(LoadConfigCommand);
-        this.addSubCommand(ModelPrepCommand);
-        this.addSubCommand(ViewPrepCommand);
     }
-}
+};
+
 StartupCommand = new Class(new StartupCommand());

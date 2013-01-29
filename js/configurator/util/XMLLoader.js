@@ -74,7 +74,7 @@ function XMLLoader() {
 //            console.log(configArray[i].tagName);
 //            console.log(configArray[i].textContent);
 
-            console.log(configObject.hasOwnProperty(configArray[i].tagName));
+//            console.log(configObject.hasOwnProperty(configArray[i].tagName));
 
             if (configObject.hasOwnProperty(configArray[i].tagName)) {
 

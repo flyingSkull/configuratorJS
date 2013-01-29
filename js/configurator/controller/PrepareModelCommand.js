@@ -5,14 +5,15 @@
  * Time: 13:59
  * To change this template use File | Settings | File Templates.
  */
-var ModelPrepCommand = function () {
+var PrepareModelCommand = function () {
 
     this.Extends = SimpleCommand;
 
-    this.execute = function (notification/*INotification*/) {
-        console.log("ModelPrepCommand::execute");
+    this.execute = function (notification/*INotification*/)
+    {
+        console.log("PrepareModelCommand::execute");
 
         this.facade.registerProxy(new CarBodyProxy());
     }
 }
-ModelPrepCommand = new Class(new ModelPrepCommand());
+PrepareModelCommand = new Class(new PrepareModelCommand());

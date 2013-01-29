@@ -20,6 +20,12 @@ var ConfigProxy = function () {
         console.log("ConfigProxy::initialize");
 
         this.parent(ConfigProxy.NAME, []);
+        this.loadConfigXML();
+    };
+
+    this.loadConfigXML = function(){
+
+        console.log("ConfigProxy::loadConfigXML");
 
         const path = "assets/xml/config.xml";
 
@@ -29,12 +35,12 @@ var ConfigProxy = function () {
     };
 
     function result(configObject, obj) {
+
         if (configObject instanceof ConfigObject) {
-            console.log("ConfigProxy::result:" + configObject.blurXFrom);
-            console.log("ConfigProxy::result:" + configObject.imageHost);
 
             if (obj != null) {
                 obj.getConfigObject().push(configObject);
+                obj.sendNotification(ApplicationFacade.LOAD_CONFIG_SUCCESS);
             }
         }
     }

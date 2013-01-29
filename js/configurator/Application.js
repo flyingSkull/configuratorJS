@@ -19,9 +19,10 @@ var Application = function () {
     this.facade = null;
 
     this.initialize = function () {
+        console.log("############# init-configurator #############");
         this.facade = ApplicationFacade.getInstance();
         this.parent("application-div");
-    }
+    };
 
     /**
      * Creates and adds the panels as children.
@@ -32,10 +33,11 @@ var Application = function () {
 
         this.navigationPanel = new NavigationPanel();
         this.addChild(this.navigationPanel);
-    }
+    };
 
     this.initializationComplete = function () {
         this.facade.startup(this);
-    }
-}
+    };
+};
+
 Application = new Class(new Application());

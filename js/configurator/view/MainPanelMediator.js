@@ -13,15 +13,28 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
      * @type Class
      */
     this.Extends = Mediator;
+
+    this.carBodyProxy/*CarBodyProxy*/ = null;
+
+    this.initialize = function(viewComponent){
+        console.log("MainPanelMediator::initialize");
+        this.parent( MainPanelMediator.NAME, viewComponent );
+
+        this.carBodyProxy = this.facade.retrieveProxy( CarBodyProxy.NAME );
+    };
+
+
     /**
      * @override
      */
     this.listNotificationInterests = function()/*Array*/
     {
         return [
-            ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN
+            ApplicationFacade.LOAD_CONFIG_SUCCESS,
+            ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN,
+            ApplicationFacade.COMPLETE_LOAD_CAR_FINAL_RUN
         ];
-    }
+    };
     /**
      * @override
      */
@@ -29,12 +42,20 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
     {
         switch( note.getName() )
         {
+            case ApplicationFacade.LOAD_CONFIG_SUCCESS:
+                console.log("handleNotification: "+ApplicationFacade.LOAD_CONFIG_SUCCESS);
+                console.log("carBodyProxy: "+this.carBodyProxy);
+                this.carBodyProxy.loadCarFirstRun();
+
+                break;
+
             case ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN:
                 console.log("handleNotification: "+ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN);
                 break;
         }
-    }
-}
+    };
+
+};
 MainPanelMediator = new Class(new MainPanelMediator());
 
 MainPanelMediator.NAME/*String*/ = "MainPanelMediator";

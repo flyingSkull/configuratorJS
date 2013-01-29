@@ -14,10 +14,10 @@ function BulkImageLoader() {
     var imageUrls = null;
     var callback = null;
 
-    this.initialize = function (givenImageUrls, givenCallback, obj) {
+    this.initialize = function (parent, givenImageUrls, givenCallback) {
+        parentObj = parent;
         imageUrls = givenImageUrls;
         callback = givenCallback;
-        parentObj = obj;
     };
 
     this.loadImages = function () {
@@ -39,7 +39,7 @@ function BulkImageLoader() {
 
         if (imagesLoaded == imageUrls.length) {
             if (callback != null) {
-                callback(images, parentObj);
+                callback.call(parentObj, images);
             }
         }
     }
