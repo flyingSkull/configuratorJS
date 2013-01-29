@@ -38,10 +38,10 @@ function XMLLoader() {
 //        imagePropertiesArray:[]
 //    };
 
-    this.initialize = function (path, result, obj) {
+    this.initialize = function (obj, path, result) {
+        parentObj = obj;
         xmlPath = path;
         callback = result;
-        parentObj = obj;
     };
 
     this.load = function () {
@@ -101,6 +101,6 @@ function XMLLoader() {
         firstImageArray = xmlDoc.getElementsByTagName("loadingOrderFirstStep")[0].getChildren();
         secondImageArray = xmlDoc.getElementsByTagName("loadingOrderFinalStep")[0].getChildren();
 
-        callback(configObject, parentObj);
+        callback.call(parentObj, configObject);
     };
 }

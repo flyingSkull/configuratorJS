@@ -25,6 +25,11 @@ var CarBodyProxy = function () {
         this.setImagesForLoading();
     };
 
+    this.loadCarFinalRun = function() {
+        console.log("CarBodyProxy::loadCarFinalRun");
+        //this.setImagesForLoading();
+    };
+
     this.setImagesForLoading = function (){
         console.log("CarBodyProxy::setImagesForLoading");
 

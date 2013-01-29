@@ -18,30 +18,22 @@ var ConfigProxy = function () {
      */
     this.initialize = function () {
         console.log("ConfigProxy::initialize");
-
         this.parent(ConfigProxy.NAME, []);
         this.loadConfigXML();
     };
 
     this.loadConfigXML = function(){
-
         console.log("ConfigProxy::loadConfigXML");
-
         const path = "assets/xml/config.xml";
-
         var xmlLoader = new XMLLoader();
-        xmlLoader.initialize(path, result, this);
+        xmlLoader.initialize(this, path, result);
         xmlLoader.load();
     };
 
-    function result(configObject, obj) {
-
+    function result(configObject) {
         if (configObject instanceof ConfigObject) {
-
-            if (obj != null) {
-                obj.getConfigObject().push(configObject);
-                obj.sendNotification(ApplicationFacade.LOAD_CONFIG_SUCCESS);
-            }
+            this.getConfigObject().push(configObject);
+            this.sendNotification(ApplicationFacade.LOAD_CONFIG_SUCCESS);
         }
     }
 

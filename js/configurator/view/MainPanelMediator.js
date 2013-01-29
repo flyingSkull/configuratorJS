@@ -43,14 +43,17 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
         switch( note.getName() )
         {
             case ApplicationFacade.LOAD_CONFIG_SUCCESS:
-                console.log("handleNotification: "+ApplicationFacade.LOAD_CONFIG_SUCCESS);
-                console.log("carBodyProxy: "+this.carBodyProxy);
+                console.log("MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CONFIG_SUCCESS);
+                var configProxy = this.facade.retrieveProxy( ConfigProxy.NAME );
+                var configObject = configProxy.getConfigObject();
                 this.carBodyProxy.loadCarFirstRun();
 
                 break;
 
             case ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN:
-                console.log("handleNotification: "+ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN);
+                console.log("MainPanelMediator::handleNotification: "+ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN);
+                console.log("MainPanelMediator::handleNotification: "+note.getBody());
+                this.carBodyProxy.loadCarFinalRun();
                 break;
         }
     };
