@@ -10,29 +10,19 @@ var LoadImageCommand = function () {
     this.Extends = SimpleCommand;
 
     this.execute = function (notification/*INotification*/) {
-        console.log("LoadCarFirstRunCommand::execute: "+notification.getName());
+        console.log("LoadImageCommand::execute: " + notification.getName());
 
-        var configProxy = this.facade.retrieveProxy( ConfigProxy.NAME );
-        var configObject = configProxy.getConfigObject();
+        var configProxy = this.facade.retrieveProxy(ConfigProxy.NAME);
+        var configObject = configProxy.getConfigObject()[0];
 
-        var carBodyProxy = this.facade.retrieveProxy( CarBodyProxy.NAME );
-        var carChassiProxy = this.facade.retrieveProxy( CarChassiProxy.NAME );
+        var carBodyProxy = this.facade.retrieveProxy(CarBodyProxy.NAME);
+        var carChassiProxy = this.facade.retrieveProxy(CarChassiProxy.NAME);
 
-
-        switch( notification.getName() )
-        {
-            case ApplicationFacade.LOAD_CAR_FIRST_RUN:
-                carBodyProxy.loadCarImages(ApplicationFacade.LOAD_CAR_FIRST_RUN, configObject);
-                break;
-            case ApplicationFacade.LOAD_CAR_FINAL_RUN:
-                carBodyProxy.loadCarFinalRun();
-                break;
-            case ApplicationFacade.LOAD_CHASSI_FIRST_RUN:
-                carChassiProxy.loadChassiFirstRun();
-                break;
-            case ApplicationFacade.LOAD_CHASSI_FINAL_RUN:
-                carChassiProxy.loadChassiFinalRun();
-                break;
+        if (notification.getName() == ApplicationFacade.LOAD_CAR_FIRST_RUN
+            || notification.getName() == ApplicationFacade.LOAD_CAR_FINAL_RUN) {
+            carBodyProxy.loadCarImages(notification.getName(), configObject);
+        } else {
+            carChassiProxy.loadChassiImages(notification.getName(), configObject);
         }
     }
 };

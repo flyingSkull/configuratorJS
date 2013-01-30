@@ -47,40 +47,51 @@
 			<item type="Number">6</item>
 			<item type="Number">7</item>
 		</loadingOrderFinalStep>
-		
-		<imagePropertiesArray type="Array">
-			<item type="Object">
-				<id type="Number">1</id>
-				<frame type="String">0000</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">2</id>
-				<frame type="String">0018</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">3</id>
-				<frame type="String">0040</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">4</id>
-				<frame type="String">0060</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">5</id>
-				<frame type="String">0080</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">6</id>
-				<frame type="String">0098</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">7</id>
-				<frame type="String">0120</frame>
-			</item>
-			<item type="Object">
-				<id type="Number">8</id>
-				<frame type="String">0140</frame>
-			</item>
-		</imagePropertiesArray>
+
+    <imagePropertiesArray type="Array">
+        <item type="Object">0000</item>
+        <item type="Object">0018</item>
+        <item type="Object">0040</item>
+        <item type="Object">0060</item>
+        <item type="Object">0080</item>
+        <item type="Object">0098</item>
+        <item type="Object">0120</item>
+        <item type="Object">0140</item>
+    </imagePropertiesArray>
+
+		<!--<imagePropertiesArray type="Array">-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">1</id>-->
+				<!--<frame type="String">0000</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">2</id>-->
+				<!--<frame type="String">0018</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">3</id>-->
+				<!--<frame type="String">0040</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">4</id>-->
+				<!--<frame type="String">0060</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">5</id>-->
+				<!--<frame type="String">0080</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">6</id>-->
+				<!--<frame type="String">0098</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">7</id>-->
+				<!--<frame type="String">0120</frame>-->
+			<!--</item>-->
+			<!--<item type="Object">-->
+				<!--<id type="Number">8</id>-->
+				<!--<frame type="String">0140</frame>-->
+			<!--</item>-->
+		<!--</imagePropertiesArray>-->
 		
 </config>

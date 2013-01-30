@@ -28,17 +28,22 @@ var CarChassiProxy = function () {
         this.parent(CarChassiProxy.NAME, []);
     };
 
-    this.loadChassiFirstRun = function() {
-        this.loadingState = "firstRun";
-        this.setImagesForLoading();
+    this.loadChassiImages = function (state, configObject) {
+        this.loadingState = state;
+        if (configObject.hasOwnProperty("loadingOrderFirstStep") && configObject.hasOwnProperty("imagePropertiesArray")) {
+            if(this.loadingState == ApplicationFacade.LOAD_CHASSI_FIRST_RUN){
+                this.setImagesForLoading(configObject.loadingOrderFirstStep, configObject.imagePropertiesArray);
+            }else{
+                this.setImagesForLoading(configObject.loadingOrderFinalStep, configObject.imagePropertiesArray);
+            }
+        }
     };
 
-    this.loadChassiFinalRun = function() {
-        this.loadingState = "finalRun";
-        this.setImagesForLoading();
-    };
+    this.setImagesForLoading = function (steps, propertiesArray) {
 
-    this.setImagesForLoading = function (){
+        for (var i = 0; i < steps.length; i++) {
+            console.log(this.loadingState+" --> " + propertiesArray[steps[i] - 1]);
+        }
 
         var imageUrls = [];
         imageUrls[0] = "http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg";
@@ -52,7 +57,7 @@ var CarChassiProxy = function () {
 
     function result (images) {
         if (images != null) {
-            if (this.loadingState == "firstRun") {
+            if (this.loadingState == ApplicationFacade.LOAD_CHASSI_FIRST_RUN) {
                 this.sendNotification(ApplicationFacade.LOAD_CHASSI_FIRST_RUN_SUCCESS, images);
             } else {
                 this.sendNotification(ApplicationFacade.LOAD_CHASSI_FINAL_RUN_SUCCESS, images);

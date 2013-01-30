@@ -76,7 +76,11 @@ function XMLLoader() {
 
 //            console.log(configObject.hasOwnProperty(configArray[i].tagName));
 
-            if (configObject.hasOwnProperty(configArray[i].tagName)) {
+
+
+
+            if(configVO.hasOwnProperty(configArray[i].tagName)){
+//            if (configObject.hasOwnProperty(configArray[i].tagName)) {
 
                 switch (configArray[i].attributes[0].nodeValue) {
                     case "Number":
