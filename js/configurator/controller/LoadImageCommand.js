@@ -18,10 +18,11 @@ var LoadImageCommand = function () {
         var carBodyProxy = this.facade.retrieveProxy( CarBodyProxy.NAME );
         var carChassiProxy = this.facade.retrieveProxy( CarChassiProxy.NAME );
 
+
         switch( notification.getName() )
         {
             case ApplicationFacade.LOAD_CAR_FIRST_RUN:
-                carBodyProxy.loadCarFirstRun();
+                carBodyProxy.loadCarImages(ApplicationFacade.LOAD_CAR_FIRST_RUN, configObject);
                 break;
             case ApplicationFacade.LOAD_CAR_FINAL_RUN:
                 carBodyProxy.loadCarFinalRun();

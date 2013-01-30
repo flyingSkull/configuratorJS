@@ -88,7 +88,17 @@ function XMLLoader() {
                         break;
 
                     case "Array":
-                        configObject[configArray[i].tagName] = configArray[i].textContent;
+
+                        var arr = configArray[i].textContent;
+                        var newArr = [];
+
+                        for( var j=0; j<configArray[i].childElementCount; j++){
+                            newArr.push(configArray[i].getElementsByTagName("item")[j].textContent);
+//                            console.log(configArray[i].hasChildNodes("item"));
+//                            console.log(configArray[i].getC);
+                        }
+//                        configObject[configArray[i].tagName] = configArray[i].textContent;
+                        configObject[configArray[i].tagName] = newArr;
                         break;
 
                     case "Boolean":
