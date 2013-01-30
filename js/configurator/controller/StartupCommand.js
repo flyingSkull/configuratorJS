@@ -15,7 +15,7 @@ var StartupCommand = function () {
         this.addSubCommand(PrepareModelCommand);
         this.addSubCommand(PrepareViewCommand);
 
-        this.addSubCommand(LoadConfigCommand);
+//        this.addSubCommand(LoadConfigCommand);
     }
 };
 

@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var CarBodyProxy = function () {
+var CarChassiProxy = function () {
 
     /**
      * MooTools-Inheritance
@@ -24,21 +24,21 @@ var CarBodyProxy = function () {
      * Constructor
      */
     this.initialize = function () {
-        console.log("CarBodyProxy::initialize");
-        this.parent(CarBodyProxy.NAME, []);
+        console.log("CarChassiProxy::initialize");
+        this.parent(CarChassiProxy.NAME, []);
     };
 
-    this.loadCarFirstRun = function () {
+    this.loadChassiFirstRun = function() {
         this.loadingState = "firstRun";
         this.setImagesForLoading();
     };
 
-    this.loadCarFinalRun = function () {
+    this.loadChassiFinalRun = function() {
         this.loadingState = "finalRun";
         this.setImagesForLoading();
     };
 
-    this.setImagesForLoading = function () {
+    this.setImagesForLoading = function (){
 
         var imageUrls = [];
         imageUrls[0] = "http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg";
@@ -50,16 +50,16 @@ var CarBodyProxy = function () {
         bulkLoader.loadImages();
     };
 
-    function result(images) {
+    function result (images) {
         if (images != null) {
             if (this.loadingState == "firstRun") {
-                this.sendNotification(ApplicationFacade.LOAD_CAR_FIRST_RUN_SUCCESS, images);
+                this.sendNotification(ApplicationFacade.LOAD_CHASSI_FIRST_RUN_SUCCESS, images);
             } else {
-                this.sendNotification(ApplicationFacade.LOAD_CAR_FINAL_RUN_SUCCESS, images);
+                this.sendNotification(ApplicationFacade.LOAD_CHASSI_FINAL_RUN_SUCCESS, images);
             }
         }
     }
 };
 
-CarBodyProxy = new Class(new CarBodyProxy());
-CarBodyProxy.NAME/*String*/ = "CarBodyProxy";
+CarChassiProxy = new Class(new CarChassiProxy());
+CarChassiProxy.NAME/*String*/ = "CarChassiProxy";

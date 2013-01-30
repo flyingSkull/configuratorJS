@@ -15,12 +15,17 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
     this.Extends = Mediator;
 
     this.carBodyProxy/*CarBodyProxy*/ = null;
+    this.configProxy/*ConfigProxy*/ = null;
 
     this.initialize = function(viewComponent){
         console.log("MainPanelMediator::initialize");
         this.parent( MainPanelMediator.NAME, viewComponent );
 
         this.carBodyProxy = this.facade.retrieveProxy( CarBodyProxy.NAME );
+
+        this.configProxy = this.facade.retrieveProxy( ConfigProxy.NAME );
+        this.configProxy.loadConfigXML();
+
     };
 
 
@@ -31,8 +36,10 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
     {
         return [
             ApplicationFacade.LOAD_CONFIG_SUCCESS,
-            ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN,
-            ApplicationFacade.COMPLETE_LOAD_CAR_FINAL_RUN
+            ApplicationFacade.LOAD_CAR_FIRST_RUN_SUCCESS,
+            ApplicationFacade.LOAD_CAR_FINAL_RUN_SUCCESS,
+            ApplicationFacade.LOAD_CHASSI_FIRST_RUN_SUCCESS,
+            ApplicationFacade.LOAD_CHASSI_FINAL_RUN_SUCCESS
         ];
     };
     /**
@@ -43,22 +50,30 @@ var MainPanelMediator = function( viewComponent/*Object*/ )
         switch( note.getName() )
         {
             case ApplicationFacade.LOAD_CONFIG_SUCCESS:
-                console.log("MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CONFIG_SUCCESS);
-                var configProxy = this.facade.retrieveProxy( ConfigProxy.NAME );
-                var configObject = configProxy.getConfigObject();
-                this.carBodyProxy.loadCarFirstRun();
-
+                console.log("# MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CONFIG_SUCCESS);
                 break;
 
-            case ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN:
-                console.log("MainPanelMediator::handleNotification: "+ApplicationFacade.COMPLETE_LOAD_CAR_FIRST_RUN);
-                console.log("MainPanelMediator::handleNotification: "+note.getBody());
-                this.carBodyProxy.loadCarFinalRun();
+            case ApplicationFacade.LOAD_CAR_FIRST_RUN_SUCCESS:
+                console.log("# MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CAR_FIRST_RUN_SUCCESS);
+                this.sendNotification(ApplicationFacade.LOAD_CHASSI_FIRST_RUN);
+                break;
+
+            case ApplicationFacade.LOAD_CHASSI_FIRST_RUN_SUCCESS:
+                console.log("# MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CHASSI_FIRST_RUN_SUCCESS);
+                this.sendNotification(ApplicationFacade.LOAD_CAR_FINAL_RUN);
+                break;
+
+            case ApplicationFacade.LOAD_CAR_FINAL_RUN_SUCCESS:
+                console.log("# MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CAR_FINAL_RUN_SUCCESS);
+                this.sendNotification(ApplicationFacade.LOAD_CHASSI_FINAL_RUN);
+                break;
+
+            case ApplicationFacade.LOAD_CHASSI_FINAL_RUN_SUCCESS:
+                console.log("# MainPanelMediator::handleNotification: "+ApplicationFacade.LOAD_CHASSI_FINAL_RUN_SUCCESS);
                 break;
         }
     };
 
 };
 MainPanelMediator = new Class(new MainPanelMediator());
-
 MainPanelMediator.NAME/*String*/ = "MainPanelMediator";

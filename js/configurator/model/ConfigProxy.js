@@ -19,7 +19,6 @@ var ConfigProxy = function () {
     this.initialize = function () {
         console.log("ConfigProxy::initialize");
         this.parent(ConfigProxy.NAME, []);
-        this.loadConfigXML();
     };
 
     this.loadConfigXML = function(){
@@ -33,7 +32,7 @@ var ConfigProxy = function () {
     function result(configObject) {
         if (configObject instanceof ConfigObject) {
             this.getConfigObject().push(configObject);
-            this.sendNotification(ApplicationFacade.LOAD_CONFIG_SUCCESS);
+            this.sendNotification(ApplicationFacade.LOAD_CAR_FIRST_RUN);
         }
     }
 

@@ -14,6 +14,8 @@ var PrepareModelCommand = function () {
         console.log("PrepareModelCommand::execute");
 
         this.facade.registerProxy(new CarBodyProxy());
+        this.facade.registerProxy(new CarChassiProxy());
+        this.facade.registerProxy(new ConfigProxy());
     }
 }
 PrepareModelCommand = new Class(new PrepareModelCommand());
