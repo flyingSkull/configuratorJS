@@ -28,6 +28,7 @@ function BulkImageLoader() {
 
     /* private */
     function loadImage(url) {
+        console.log("--> load url: "+url);
         var image = new Image();
         image.addEventListener("load", imageLoaded, false);
         image.src = url;

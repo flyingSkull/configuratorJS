@@ -17,6 +17,7 @@ var PrepareViewCommand = function () {
         var app = note.getBody();
 
         this.facade.registerMediator(new MainPanelMediator(app.mainPanel));
+//        this.facade.registerMediator(new NavigationPanel(app.navigationPanel));
     }
 };
 

@@ -2,14 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5206930e-226f-4aad-a0cf-e9fdfab5b49b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/dictionaries/ric.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ric.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/configurator/view/NavigationPanelMediator.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/1/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/17 Zoll/2/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/1/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/1/1/19 Zoll/2/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/1/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/17 Zoll/2/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/1/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/1/19 Zoll/2/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/1/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/17 Zoll/2/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/1/small/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/big/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/medium/rim_0140.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0018.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0040.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0060.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0098.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/configurator/rim/7/2/19 Zoll/2/small/rim_0140.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/xml/config.xml" afterPath="$PROJECT_DIR$/assets/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/controller/LoadImageCommand.js" afterPath="$PROJECT_DIR$/js/configurator/controller/LoadImageCommand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/Application.js" afterPath="$PROJECT_DIR$/js/configurator/Application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/controller/PrepareViewCommand.js" afterPath="$PROJECT_DIR$/js/configurator/controller/PrepareViewCommand.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" afterPath="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js" afterPath="$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js" afterPath="$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/util/XMLLoader.js" afterPath="$PROJECT_DIR$/js/configurator/util/XMLLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" afterPath="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/view/MainPanel.js" afterPath="$PROJECT_DIR$/js/configurator/view/MainPanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" afterPath="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/configurator/view/NavigationPanel.js" afterPath="$PROJECT_DIR$/js/configurator/view/NavigationPanel.js" />
     </list>
     <ignored path="configuratorJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,64 +256,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CarBodyProxy.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.3964497">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarChassiProxy.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="13" selection-start="763" selection-end="1087" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigObject.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigObject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadImageCommand.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/controller/LoadImageCommand.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="29" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/xml/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="32" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigProxy.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/model/ConfigProxy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="24" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPanelMediator.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainPanelMediator.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="77" selection-start="1781" selection-end="1802" vertical-scroll-proportion="0.0">
+            <state line="54" column="36" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.47802198">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrepareViewCommand.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/controller/PrepareViewCommand.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,26 +277,77 @@
       <file leaf-file-name="ApplicationFacade.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/configurator/ApplicationFacade.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="80" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
+            <state line="21" column="46" selection-start="609" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLLoader.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/util/XMLLoader.js">
+      <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/Application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="30" selection-start="3470" selection-end="3584" vertical-scroll-proportion="0.0">
+            <state line="33" column="53" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigVO.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js">
+      <file leaf-file-name="MainPanel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+            <state line="27" column="67" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="31" selection-start="7524" selection-end="7524" vertical-scroll-proportion="-9.875">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#1;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#2;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#3;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,30 +368,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/configurator/controller/PrepareViewCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
-        <option value="$PROJECT_DIR$/js/configurator/controller/StartupCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/controller/LoadCarFirstRunCommand.js" />
-        <option value="localhost/configuratorJS/js/libs-dev/PureMVC_JS_2_0.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/configurator/controller/PrepareModelCommand.js" />
         <option value="$PROJECT_DIR$/js/configurator/ApplicationFacade.js" />
-        <option value="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js" />
         <option value="$PROJECT_DIR$/js/configurator/util/XMLLoader.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/ConfigProxy.js" />
         <option value="$PROJECT_DIR$/assets/xml/config.xml" />
         <option value="$PROJECT_DIR$/js/configurator/controller/LoadImageCommand.js" />
-        <option value="$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js" />
+        <option value="$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js" />
         <option value="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" />
+        <option value="$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js" />
+        <option value="$PROJECT_DIR$/js/configurator/Application.js" />
+        <option value="$PROJECT_DIR$/js/configurator/view/NavigationPanel.js" />
+        <option value="$PROJECT_DIR$/js/configurator/view/NavigationPanelMediator.js" />
+        <option value="$PROJECT_DIR$/js/configurator/controller/PrepareViewCommand.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/configurator/view/MainPanel.js" />
+        <option value="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
     <option name="y" value="22" />
-    <option name="width" value="1264" />
-    <option name="height" value="1028" />
+    <option name="width" value="1280" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -208,7 +440,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,6 +509,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuratorJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configurator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,34 +628,35 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/configurator/view/components" />
       <recent name="$PROJECT_DIR$/js/configurator/controller" />
       <recent name="$PROJECT_DIR$/js/configurator/model" />
       <recent name="$PROJECT_DIR$/xml" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/libs-dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/configurator/view" />
       <recent name="http://localhost/configuratorJS/js/libs-dev" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/js/configurator" />
       <recent name="$PROJECT_DIR$/js/configurator/view/components/core" />
-      <recent name="$PROJECT_DIR$/js/configurator/view/components" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.ConfigRemote">
@@ -443,12 +701,12 @@
       <JSRemoteDebuggerConfigurationSettings>
         <option name="engineId" value="chrome" />
         <option name="fileUrl" value="http://localhost/configuratorJS/index.html" />
-        <mapping local-file="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" url="http://localhost/configuratorJS/js/configurator/model/CarBodyProxy.js" />
-        <mapping local-file="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" url="http://localhost/configuratorJS/js/view/MainPanelMediator.js" />
         <mapping local-file="$PROJECT_DIR$/js/configurator/controller/LoadImageCommand.js" url="http://localhost/configuratorJS/js/configurator/controller/LoadImageCommand.js" />
         <mapping local-file="$PROJECT_DIR$/js/configurator/controller/LoadConfigCommand.js" url="http://localhost/configuratorJS/js/configurator/controller/LoadConfigCommand.js" />
         <mapping local-file="$PROJECT_DIR$/js/configurator/util/XMLLoader.js" url="http://localhost/configuratorJS/js/configurator/util/XMLLoader.js" />
         <mapping local-file="$PROJECT_DIR$/js/configurator/model/ConfigProxy.js" url="http://http://localhost/configuratorJS/js/configurator/model/ConfigProxy.js" />
+        <mapping local-file="$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js" url="http://localhost/configuratorJS/js/configurator/model/CarBodyProxy.js" />
+        <mapping local-file="$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js" url="http://localhost/configuratorJS/js/view/MainPanelMediator.js" />
       </JSRemoteDebuggerConfigurationSettings>
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -545,14 +803,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="22" width="1264" height="1028" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="998" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25543916" sideWeight="0.29217198" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25543916" sideWeight="0.6780595" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32194045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25536993" sideWeight="0.21664767" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25536993" sideWeight="0.6784493" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32155073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24025458" sideWeight="0.21892816" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -627,7 +885,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="60" />
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -643,110 +901,156 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="http://localhost/configuratorJS/js/libs-dev/PureMVC_JS_2_0.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="http://localhost/configuratorJS/js/libs-dev/mootools-1.2.4-core-nc.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="100" selection-start="1784" selection-end="1784" vertical-scroll-proportion="-20.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/PrepareModelCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/controller/LoadConfigCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="386" selection-end="386" vertical-scroll-proportion="0.47085202">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigVO.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/ConfigProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/configurator/util/XMLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="30" selection-start="3470" selection-end="3584" vertical-scroll-proportion="0.0">
+        <state line="105" column="30" selection-start="3540" selection-end="3654" vertical-scroll-proportion="0.64705884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/xml/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="32" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0">
+        <state line="31" column="63" selection-start="1171" selection-end="1201" vertical-scroll-proportion="0.16235293">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/ApplicationFacade.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/vo/ConfigObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="80" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="77" selection-start="1781" selection-end="1802" vertical-scroll-proportion="0.0">
+        <state line="15" column="26" selection-start="356" selection-end="356" vertical-scroll-proportion="0.27173913">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/configurator/controller/LoadImageCommand.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="29" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+        <state line="18" column="22" selection-start="596" selection-end="596" vertical-scroll-proportion="0.31764707">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js">
+    <entry file="file://$PROJECT_DIR$/js/configurator/util/BulkImageLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="763" selection-end="1087" vertical-scroll-proportion="0.0">
+        <state line="30" column="25" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/configurator/model/CarBodyProxy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.3964497">
+        <state line="29" column="18" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/model/CarChassiProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="326" selection-end="326" vertical-scroll-proportion="0.3190184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/components/core/UIComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/ApplicationFacade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="46" selection-start="609" selection-end="626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="53" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/NavigationPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="6" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.7138047">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/NavigationPanelMediator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="6" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.4162736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/controller/PrepareViewCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="31" selection-start="7524" selection-end="7524" vertical-scroll-proportion="-9.875">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#1;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#2;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#3;n#div#7;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="67" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/configurator/view/MainPanelMediator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.47802198">
           <folding />
         </state>
       </provider>

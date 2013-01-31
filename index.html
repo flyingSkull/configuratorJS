@@ -38,7 +38,6 @@
     <script type="text/javascript" src="js/configurator/util/XMLLoader.js"></script>
 
 
-
     <script type="text/javascript">
         function init() {
             var app = new Application();
@@ -58,11 +57,98 @@
 <body>
 
 <div id="configurator-div">
-    <div id="main-panel"></div>
-    <div id="navigation-panel">
-        <div id="left-rotate-button"></div>
-        <div id="right-rotate-button"></div>
+    <div id="main-panel">
+        <div id="image-container-1" style="overflow: hidden">
+            <canvas id="canvas_1_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_1_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_1_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_1_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-2" style="overflow: hidden">
+            <canvas id="canvas_2_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_2_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_2_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_2_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-3" style="overflow: hidden">
+            <canvas id="canvas_3_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_3_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_3_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_3_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-4" style="overflow: hidden">
+            <canvas id="canvas_4_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_4_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_4_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_4_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-5" style="overflow: hidden">
+            <canvas id="canvas_5_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_5_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_5_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_5_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-6" style="overflow: hidden">
+            <canvas id="canvas_6_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_6_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_6_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_6_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-7" style="overflow: hidden">
+            <canvas id="canvas_7_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_7_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_7_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_7_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+        <div id="image-container-8" style="overflow: hidden">
+            <canvas id="canvas_8_1" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+            <!-- rim -->
+            <canvas id="canvas_8_2" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+            <!-- shadow - bottom -->
+            <canvas id="canvas_8_3" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+            <!-- diffusion -->
+            <canvas id="canvas_8_4" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+            <!-- reflection - logo -->
+        </div>
+
+        <div class="navigationPanel" style="position: absolute; left: 0; top: 0; z-index: 42;">
+            <button id="left-rotate-button">LEFT</button>
+            <button id="right-rotate-button">RIGHT</button>
+        </div>
+
     </div>
+    <!--<div id="navigation-panel">-->
+    <!--<div id="left-rotate-button"></div>-->
+    <!--<div id="right-rotate-button"></div>-->
+    <!--</div>-->
 </div>
 
 </body>

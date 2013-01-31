@@ -21,6 +21,12 @@ var CarBodyProxy = function () {
     this.loadingState = "";
 
     /**
+     *
+     * @type {Array}
+     */
+    this.pictureCategorie = ["body_", "diffusion.VRayDiffuseFilter.", "reflection.VRayReflection.", "logo_fo_", "bottom_", "shadow_"];
+
+    /**
      * Constructor
      */
     this.initialize = function () {
@@ -41,17 +47,15 @@ var CarBodyProxy = function () {
 
     this.setImagesForLoading = function (steps, propertiesArray) {
 
-        for (var i = 0; i < steps.length; i++) {
-            console.log(this.loadingState+" --> " + propertiesArray[steps[i] - 1]);
-        }
-
         var imageUrls = [];
-        imageUrls[0] = "http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg";
-        imageUrls[1] = "http://www.html5canvastutorials.com/demos/assets/yoda.jpg";
+        for (var i = 0; i < steps.length; i++) {
+            for (var p = 0; p < this.pictureCategorie.length; p++) {
+                imageUrls.push("http://www.doppellotte.de/ric/configurator/images/configurator/vehicle/7/1/medium/"+this.pictureCategorie[p]+propertiesArray[steps[i] - 1]+".png");
+            }
+        }
 
         var bulkLoader = new BulkImageLoader();
         bulkLoader.initialize(this, imageUrls, result);
-
         bulkLoader.loadImages();
     };
 

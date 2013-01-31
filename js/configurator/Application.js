@@ -21,7 +21,7 @@ var Application = function () {
     this.initialize = function () {
         console.log("############# init-configurator #############");
         this.facade = ApplicationFacade.getInstance();
-        this.parent("application-div");
+        this.parent("configurator-div");
     };
 
     /**

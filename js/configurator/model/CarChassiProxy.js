@@ -31,31 +31,26 @@ var CarChassiProxy = function () {
     this.loadChassiImages = function (state, configObject) {
         this.loadingState = state;
         if (configObject.hasOwnProperty("loadingOrderFirstStep") && configObject.hasOwnProperty("imagePropertiesArray")) {
-            if(this.loadingState == ApplicationFacade.LOAD_CHASSI_FIRST_RUN){
+            if (this.loadingState == ApplicationFacade.LOAD_CHASSI_FIRST_RUN) {
                 this.setImagesForLoading(configObject.loadingOrderFirstStep, configObject.imagePropertiesArray);
-            }else{
+            } else {
                 this.setImagesForLoading(configObject.loadingOrderFinalStep, configObject.imagePropertiesArray);
             }
         }
     };
 
     this.setImagesForLoading = function (steps, propertiesArray) {
-
-        for (var i = 0; i < steps.length; i++) {
-            console.log(this.loadingState+" --> " + propertiesArray[steps[i] - 1]);
-        }
-
         var imageUrls = [];
-        imageUrls[0] = "http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg";
-        imageUrls[1] = "http://www.html5canvastutorials.com/demos/assets/yoda.jpg";
+        for (var i = 0; i < steps.length; i++) {
+            imageUrls.push("http://www.doppellotte.de/ric/configurator/images/configurator/rim/7/1/19 Zoll/1/medium/rim_" + propertiesArray[steps[i] - 1] + ".png");
+        }
 
         var bulkLoader = new BulkImageLoader();
         bulkLoader.initialize(this, imageUrls, result);
-
         bulkLoader.loadImages();
     };
 
-    function result (images) {
+    function result(images) {
         if (images != null) {
             if (this.loadingState == ApplicationFacade.LOAD_CHASSI_FIRST_RUN) {
                 this.sendNotification(ApplicationFacade.LOAD_CHASSI_FIRST_RUN_SUCCESS, images);
